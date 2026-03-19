@@ -1,73 +1,173 @@
-# Welcome to your Lovable project
+# 🚀 PulseWire
 
-## Project info
+### AI Intelligence & Real-Time Signal Monitoring Platform
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+PulseWire is a **modern, enterprise-grade React dashboard** designed to monitor AI-driven insights, market signals, and real-time intelligence streams.
 
-## How can I edit this code?
+Built with performance, scalability, and clean UX in mind. This is not a demo UI. It’s a fully functional system with authentication, protected routes, live data simulation, and responsive layout.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🔥 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### 🧠 Core Intelligence Modules
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Global Trend Signals** – Detect emerging technologies and growth patterns
+* **Real-Time News Feed** – Live streaming headlines with auto updates
+* **AI Analysis Engine** – Simulated processing engine with activity indicators
+* **Market Alerts System** – AI-generated alerts with severity levels
+* **System Health Monitor** – Infrastructure metrics with live updates
+* **Data Source Tracking** – Monitor multiple data pipelines in real time
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🔐 Authentication System
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* LocalStorage-based authentication
+* Signup + Login validation
+* Protected dashboard routes
+* Persistent session handling
+* Secure logout flow
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🧩 Dashboard Capabilities
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* Fully responsive grid layout (1–4 columns)
+* Collapsible sidebar (desktop)
+* Mobile drawer navigation
+* Fixed header + dynamic content layout
+* Smooth transitions and animations
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 📊 Advanced Pages
+
+* **Trend Signals** – Growth tracking with categorized insights
+* **News Streams** – Filterable real-time content feed
+* **Alerts** – Actionable AI-generated system alerts
+* **Data Sources** – Connected pipeline monitoring
+* **Analytics** – Heatmaps + clustering insights
+* **System Health** – Real-time infrastructure metrics
+* **Settings** – Profile, API keys, and preferences
+
+---
+
+## 🛠 Tech Stack
+
+* **React.js (Hooks + Functional Components)**
+* **React Router v6**
+* **Tailwind CSS**
+* **Lucide React Icons**
+* **LocalStorage (Auth + State Persistence)**
+
+---
+
+## 🎨 Design System
+
+### Colors
+
+| Role              | Value     |
+| ----------------- | --------- |
+| Background        | `#000000` |
+| Primary Accent    | `#2000EA` |
+| Secondary Accent  | `#9E92E7` |
+| Muted Text        | `#8D8D8D` |
+| Primary Text      | `#FFF8F8` |
+| Widget Background | `#111111` |
+
+### Typography
+
+* **Headings:** Quantico
+* **Body:** DM Sans
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+  components/
+  layout/
+  pages/
+  utils/
+  App.jsx
+  main.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/your-username/pulsewire.git
+cd pulsewire
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔐 Demo Credentials
 
-**Use GitHub Codespaces**
+```
+Signup with any email and password
+Credentials are stored locally
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📱 Responsive Behavior
 
-This project is built with:
+| Device  | Layout                         |
+| ------- | ------------------------------ |
+| Mobile  | Drawer sidebar, 1-column grid  |
+| Tablet  | Collapsible sidebar, 2 columns |
+| Laptop  | 3 columns                      |
+| Desktop | 4 columns                      |
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## ⚡ Animations
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+* Sidebar transitions
+* Live feed updates
+* Pulse indicators
+* Hover elevation effects
+* Smooth layout shifts
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🚀 Deployment
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```bash
+npm run build
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Deploy using:
+
+* Vercel
+* Netlify
+* Firebase Hosting
+
+---
+
+## 📌 Future Improvements
+
+* Real API integration (news, finance, AI signals)
+* Role-based access control
+* Dark/light theme toggle
+* WebSocket-based real-time data
+* Backend (Node.js + DB)
+
+---
+
+## 👨‍💻 Author
+
+Built for modern AI-driven platforms. Designed with scalability and real-world usage in mind.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
